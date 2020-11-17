@@ -36,12 +36,6 @@
         />
 
         <SectionContainer
-          v-if="billSections"
-          v-bind="billSections"
-          mode="columns"
-        />
-
-        <SectionContainer
           v-if="partnerSections"
           v-bind="partnerSections"
           mode="slider"
@@ -56,7 +50,6 @@ import { identity } from '~/snisni.config.json'
 import mainSections from '~/config/home.json'
 import cardSections from '~/config/card.json'
 import softwareSections  from '~/config/software.json'
-import billSections from '~/config/bill.json'
 import partnerSections from '~/config/partners.json'
 import SectionContainer from '@/components/organisms/SectionContainer'
 
@@ -71,7 +64,6 @@ export default {
       mainSections,
       cardSections,
       softwareSections,
-      billSections,
       partnerSections
     }
   },
