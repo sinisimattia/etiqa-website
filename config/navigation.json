@@ -32,14 +32,6 @@
           "name": "seedling"
         },
         "href": "/#growth"
-      },
-      {
-        "name": "Sii Come Bill Magazine",
-        "icon": {
-          "pack": "fas",
-          "name": "newspaper"
-        },
-        "href": "/#magazine"
       }
     ]
   }
